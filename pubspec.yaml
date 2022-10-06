@@ -1,0 +1,50 @@
+name: simple
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  get_it: ^7.2.0
+  flutter_riverpod: ^1.0.4
+  http: ^0.13.5
+  dio: ^4.0.6
+  intl: ^0.17.0
+  syncfusion_flutter_charts: ^20.3.47
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_svg:
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: Product-sans
+      fonts:
+        - asset: assets/fonts/Product-Sans-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
